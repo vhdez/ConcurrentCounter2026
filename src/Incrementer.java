@@ -7,7 +7,7 @@ public class Incrementer implements Runnable {
 
     public void run() {
         for (int i = 0; i < 105; i = i + 1) {
-            System.out.println(sharedCounter.increment());
+            System.out.println("INC: " + sharedCounter.increment());
         }
     }
 }
